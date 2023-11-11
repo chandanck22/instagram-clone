@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
+import { signInWithEmailAndPassword } from "firebase/auth";
+import {auth} from "../firebase";
 
 function Login() {
 
@@ -7,6 +9,11 @@ function Login() {
     const [password, setPassword] = useState("");
 
     // console.log(email)
+
+    const handleLogin = () => {
+      signInWithEmailAndPassword(auth, email, password);
+    }
+
   return (
 
     <div className="login">
@@ -27,7 +34,7 @@ function Login() {
         placeholder="Password"
         value={password}
       />
-      <button>Log In</button>
+      <button onClick={handleLogin} >Log In</button>
     </div>
   );
 }
