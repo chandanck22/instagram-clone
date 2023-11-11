@@ -1,15 +1,12 @@
-import './App.css';
-import Homepage from './Homepage';
-import Authentication from './authentication/Authentication';
+import { useSelector } from "react-redux";
+import "./App.css";
+import Homepage from "./Homepage";
+import Authentication from "./authentication/Authentication";
 
 function App() {
-  return (
-    <div className='app'>
-      {/* <Homepage /> */}
+  const user = useSelector((state) => state.data.user.user);
 
-      <Authentication />
-    </div>
-  );
+  return <div className="app">{user ? <Homepage /> : <Authentication />}</div>;
 }
 
 export default App;
