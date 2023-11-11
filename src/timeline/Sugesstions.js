@@ -27,7 +27,7 @@ function Sugesstions() {
                 <Avatar>C</Avatar>
               </span>
               <div className="username__info">
-                <div className="username">shyam_</div>
+                <div className="username">saman_</div>
                 <div className="relation">New to Instagram</div>
               </div>
             </div>
@@ -40,7 +40,7 @@ function Sugesstions() {
                 <Avatar>C</Avatar>
               </span>
               <div className="username__info">
-                <div className="username">shyam_</div>
+                <div className="username">_ram</div>
                 <div className="relation">New to Instagram</div>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Sugesstions() {
                 <Avatar>C</Avatar>
               </span>
               <div className="username__info">
-                <div className="username">shyam_</div>
+                <div className="username">ayush</div>
                 <div className="relation">New to Instagram</div>
               </div>
             </div>
