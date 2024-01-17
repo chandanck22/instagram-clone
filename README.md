@@ -5,8 +5,8 @@
 
 ### To Test
 
-email: **chandan@google.com** <br/>
-password: **123456789**
+email: **null@gmail.com** <br/>
+password: **1234567890**
 
 **`You can manually singup by entering the details.`**
 
